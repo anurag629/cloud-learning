@@ -1,28 +1,34 @@
-# Cloud Learning Repository
+# Cloud Learning Repository 
 
-This repository contains my journey through various Google Cloud Platform labs and exercises. The content is organized into folders and subfolders based on the specific technologies and topics.
+This repository contains documentation and examples of various Google Cloud services.
 
 ## Table of Contents
 
-### 1. Importing Data to a Firestore Database
-   - **Lab Path:** [importing-data-firestore](./firestore/importing-data-firestore)
-   - **Overview:** This lab focuses on setting up Firestore and importing data into a Firestore database using Google Cloud.
+### 1. [BigQuery](./bigquery)
 
-### 2. Build a Serverless Web App with Firebase
-   - **Lab Path:** [serverless-web-app-firebase](./firebase/serverless-web-app-firebase)
-   - **Overview:** This lab demonstrates building a serverless web app using Firebase, focusing on adding Firebase Authentication, Firestore security, and real-time updates.
+   1. [Quick start Console](./bigquery/qwikstart-console/)
 
-### 3. Build a Serverless App with Cloud Run that Creates PDF Files
-   - **Lab Path:** [serverless-app-cloud-run](./cloud-run/serverless-app-cloud-run)
-   - **Overview:** This lab shows how to use Cloud Run to build a serverless application that converts files to PDF using Cloud Storage for event processing.
+### 2. [Cloud Run](./cloud-run/)
 
-### 4. Build a Resilient, Asynchronous System with Cloud Run and Pub/Sub
-   - **Lab Path:** [resilient-asynchronous-system](./pubsub/resilient-asynchronous-system)
-   - **Overview:** Learn how to create a resilient, asynchronous system using Cloud Run and Pub/Sub, handling tasks like creating topics, subscriptions, and managing services.
+   1. [Using pub sub with cloud run](./cloud-run/using-pubsub-with-cloud-run/)
+   2. [Async system with pub sub](./cloud-run/async-system-with-pubsub/)
+   3. [pdf conversion app](./cloud-run/pdf-conversion-app/)
+   4. [rest api go](./cloud-run/rest-api-go/)
 
-### 5. Developing a REST API with Go and Cloud Run
-   - **Lab Path:** [rest-api-go-cloud-run](./cloud-run/rest-api-go-cloud-run)
-   - **Overview:** This lab walks through building a REST API with Go, connecting it to Firestore, and deploying it using Cloud Run for serverless execution.
+### 3. [Firestore](./firestore/)
+
+   1. [Import Data to Firestore](./firestore/importing-data-firestore/)
+   2. [Serverless web app firebase](./firestore/serverless-web-app-firebase/)
+
+### 4. [Docker](./docker/)
+   
+   1. [Introduction to Docker](./docker/introduction-to-docker/)
+
+### 5. [Vertex AI](./vertex-ai/)
+
+   1. [Develop app using gemini pro](./vertex-ai/develop-app-gemini-1.0-pro/)
+   2. [Prompt Engineering](./vertex-ai/prompt-emgineering/)
 
 ## Repository Link
-[My Cloud Learning Repository](https://github.com/anurag629/cloud-learning)
+
+- [GitHub Repository](https://github.com/anurag629/cloud-learning)
